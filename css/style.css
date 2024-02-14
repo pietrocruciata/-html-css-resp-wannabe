@@ -129,17 +129,20 @@ img {
     SOLUZIONE RESPONSIVE
  ************************************************/
 
-/*TABLET*/
+/*DESKTOP*/
 
 @media (max-width:1140px) {
     .container {
-        width: 769px;
+        width: 100%;
+        max-width: 900px;
     }
 }
 
+/*TABLET*/
 @media (max-width:768px) {
     .container {
-        width: 481px;
+        width: 100%;
+        max-width: 600px;
     }
 
     .col-right{
@@ -147,6 +150,7 @@ img {
     }
 }
 
+/*MOBILE*/
 @media (max-width:480px){
     .container{
        width: calc(12 * 100% / 12)
